@@ -178,6 +178,10 @@ return [
         App\Providers\RouteServiceProvider::class,
         Backpack\Base\BaseServiceProvider::class,
         Backpack\CRUD\CrudServiceProvider::class,
+        Backpack\Settings\SettingsServiceProvider::class,
+        Backpack\PermissionManager\PermissionManagerServiceProvider::class,
+        Cviebrock\EloquentSluggable\ServiceProvider::class, 
+		Backpack\PageManager\PageManagerServiceProvider::class,
 
     ],
 
