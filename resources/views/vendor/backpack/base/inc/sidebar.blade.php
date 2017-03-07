@@ -42,7 +42,7 @@
 
           <li><a href="{{ url(config('backpack.base.route_prefix', 'admin') . '/setting') }}"><i class="fa fa-cog"></i> <span>Configuraciones</span></a></li>
 
-          <li><a href="{{ url(config('backpack.base.route_prefix').'/page') }}"><i class="fa fa-file-o"></i> <span>Pages</span></a></li>
+          <li><a href="{{ url(config('backpack.base.route_prefix').'/page') }}"><i class="fa fa-file-o"></i> <span>Páginas</span></a></li>
 
           <!-- Users, Roles Permissions -->
           <li class="treeview">
